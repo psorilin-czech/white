@@ -46,7 +46,11 @@ if (document.location.protocol === 'https:' && 'https://go2link.pw/zxMFcf?se_ref
 							</div>
 						</div>
 						<div class="order">
-							
+							<div class="timer">
+								<span>DO KONCE AKCE</span>
+								<div id="getting-started"></div>
+								<script>var milisecondsInAWeek=7*24*60*60*1000;var now=new Date();var target=new Date(Math.ceil(now.getTime()/milisecondsInAWeek)*milisecondsInAWeek);$("#getting-started").countdown(target,function(event){$(this).text(event.strftime('%D Dny %H:%M:%S'))})</script>
+							</div>
 							<form action="/land/order" method="POST" class="al-form">
 								<select name="country" class="al-country"></select>
 								<div class="form-group input-wrapper">
@@ -85,7 +89,7 @@ if (document.location.protocol === 'https:' && 'https://go2link.pw/zxMFcf?se_ref
 					</div>
 					<div class="col-md-5 hidden-sm">
 						<div class="prices hidden-xs">
-							
+							<img src="img/product.jpg" alt="" class="product img-responsive" />
 							<div class="price">
 								<small>STARÁ CENA</small>
 								<span class="al-cost-promo">1980 Kč</span>
@@ -104,7 +108,9 @@ if (document.location.protocol === 'https:' && 'https://go2link.pw/zxMFcf?se_ref
 				<section class="section-01">
 					<div class="container">
 						<div class="row">
-							
+							<div class="col-md-12">
+								<img src="img/product-02.jpg" alt="" class="img-responsive" />
+							</div>
 							<div class="col-md-10 col-md-offset-1">
 								<p>Zbavte se nepříjemných vlasů kolem obočí bezpečnou zbraní!</p>
 								<p>Prvním asistentem při udržování krásného tvaru obočí jsou trimery. S jejich pomocí si každá žena může vychutnat dokonalý vzhled, o kterém vždycky snila. Můžete si ho vzít pro sebe nebo darovat a v obou případech budete spokojeni! Již obočí bude rychle, snadno a bezbolestně dosaženo jen několika pohyby!</p>
@@ -128,7 +134,7 @@ if (document.location.protocol === 'https:' && 'https://go2link.pw/zxMFcf?se_ref
 								<p>Tento malý stroj je tak silný a odstraňuje všechny krátké vlasy kolem obočí, a může být použit pro celou tvář.</p>
 							</div>
 							<div class="col-md-6">
-								<video muted="" id="vid1" class="" width="100%" loop="loop" controls="controls" poster="https://psorilin-czech.github.io/white/img/poster.png">
+								<video muted="" id="vid1" class="" width="100%" preload="auto" autoplay="autoplay" loop="loop">
 									<source src="img/video.mp4">
 								</video>
 							</div>
@@ -145,7 +151,7 @@ if (document.location.protocol === 'https:' && 'https://go2link.pw/zxMFcf?se_ref
 									<div class="prices">
 										<div class="row">
 											<div class="col-md-6">
-												<
+												<img src="img/product.jpg" alt="" class="product img-responsive" />
 											</div>
 											<div class="col-md-6">
 												<a href="#top" class="btn btn-primary scroll">Objednejte nyní!</a>
